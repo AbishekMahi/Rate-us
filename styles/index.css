@@ -73,7 +73,7 @@ h5 {
     background-color: #e4e4e4 !important;
 }
 
-.col {
+.emoji {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -84,7 +84,7 @@ h5 {
     border: 0 !important;
 }
 
-.col:hover {
+.emoji:hover {
     background-color: #e4e4e4 !important;
 }
 
@@ -106,6 +106,23 @@ form {
 label {
     text-align: left !important;
     width: 100% !important;
+}
+
+.help {
+    padding: 1rem;
+    text-align: center;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    /* width: 30% !important; */
+    color: #fff;
+}
+
+.sicon{
+    color: #fff !important;
+    padding: 10px;
+    font-size: 1.5rem !important;
+    border: 2 solid #fff !important;
 }
 
 .background {
